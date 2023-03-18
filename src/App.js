@@ -18,6 +18,7 @@ function App() {
       <Skills></Skills>
       <Work></Work>
       <Contact></Contact>
+      <Contact></Contact>
 
     </div>
   );
