@@ -12,8 +12,8 @@ const Home = () => {
 
             <p className='text-[#959595]'>Hi my name is </p>
             <h1 className='text-4xl sm:text-7xl font-bold text-color5'>John Argyres</h1>
-            <h2 className='text-4xl sm:text-7xl font-bold text-color3'>I'm a full stack developer</h2>
-            <p className='text-color5 py-4 max-w-[700px]'>I'm a full stack developer that focuses on building intuitive, simple to use web applications. Right now I am splitting my time between Unity and HTML5 games.</p>
+            <h2 className='text-4xl sm:text-7xl font-bold text-color3'>I'm a Computer Engineering Master's Student</h2>
+            <p className='text-color5 py-4 max-w-[700px]'>I am pursuing my Masters degree at the University of New Mexico under Dr. Christodoulou. My focus is in cybersecurity. My personal interests in that field are reverse engineering and malware analysis.</p>
 
             {/* button */}
             <div>

@@ -22,7 +22,7 @@ const About = () => {
                 <div>
                     <p>I am passionate about building robust, reusable software. 
                         Software where someone can pick it up and use it ten years from now. 
-                        I have professional experience as a software defined radio developer at the University of New Mexico (UNM) and at The Air Force Research Laboratory (AFRL)</p>
+                        I have professional experience writing software for software defined radios (SDRs) at the University of New Mexico (UNM) and at The Air Force Research Laboratory (AFRL)</p>
                 </div>
             
             
