@@ -27,6 +27,17 @@ const Home = () => {
                     </button>
                 </Link>
             </div>
+            <div>
+                <Link to="writeups" smooth={true} duration={500}>
+                        
+                    <button className='text-color3 group border-2 px-6 py-3 my-2 flex items-center hover:bg-color4 hover:border-color4 hover:text-color1'>
+                        View Writeups 
+                        <span className='group-hover:rotate-90 duration-100'>
+                            <HiArrowNarrowRight className='ml-2'></HiArrowNarrowRight>
+                        </span>
+                    </button>
+                </Link>
+            </div>
 
         </div>
     </div>

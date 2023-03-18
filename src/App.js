@@ -4,6 +4,7 @@ import About from "./components/About.jsx";
 import Skills from "./components/Skills.jsx";
 import Work from "./components/Work.jsx";
 import Contact from "./components/Contact.jsx";
+import Writeups from "./components/Writeups.jsx"
 
 import { BrowserRouter as Router, Routes, Route} from "react-router-dom";
 import Game from "./components/Game.jsx";
@@ -16,6 +17,7 @@ function App() {
       <Home></Home>
       <About></About>
       <Skills></Skills>
+      <Writeups></Writeups>
       <Work></Work>
       <Contact></Contact>
 
