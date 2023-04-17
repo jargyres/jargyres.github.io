@@ -4,6 +4,7 @@ import { BrowserRouter as Router, Routes, Route} from "react-router-dom";
 import Game from './Game';
 import OvertheWireBandit from '../assets/writeups/overthewirebandit/b25log2.png'
 import OvertheWireKrypton from '../assets/writeups/overthewirekrypton/k1cd.png'
+import ShellcodingTips from '../assets/writeups/Shellcoding.jpeg'
 
 
 
@@ -45,6 +46,19 @@ const Writeups = () => {
                         <div className='pt-8 text-center'>
                             <a href='https://jargyres.github.io/Writeups/krypton.html'>
                                 <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Writeup</button>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div style={{backgroundImage: `url(${ShellcodingTips})`}} className='shadow-lg shadow-color2 group container rounded-md flex justify-center items-center mx-auto content-div'>
+                    {/* Hover Effects */}
+                    <div className='opacity-0 group-hover:opacity-100 text-center'>
+                        <span className='text-2xl font-bold text-white tracking-wider'>
+                            Shellcoding Tips 
+                        </span>
+                        <div className='pt-8 text-center'>
+                            <a href='https://jargyres.github.io/Writeups/shellcodingtips.html'>
+                                <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>View</button>
                             </a>
                         </div>
                     </div>
